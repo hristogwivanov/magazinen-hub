@@ -3,20 +3,22 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 35px;
   padding-bottom: 25px;
+}
+
+#contact-form h2{
+    margin-bottom: 10px;
 }
 
 #contact-form .form-row {
   display: flex;
   gap: 68px;
   justify-content: center;
+  margin-bottom: 25px;
 }
 
 #cotnact-form .right-side {
   display: flex;
-  flex-direction: column;
-  justify-content: end;
 }
 
 #contact-form textarea,
@@ -27,7 +29,7 @@
 
 #contact-form textarea {
   width: 642px;
-  height: 344px;
+  height: 322px;
   box-sizing: border-box;
 }
 
@@ -35,12 +37,13 @@
   width: 410px;
   height: 67px;
   box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 20px;
 }
 
-/* #contact-form input[type="checkbox"] {
-  width: 42px;
-  height: 40px;
-} */
+#contact-form textarea {
+    margin-top: 4px;
+}
 
 #contact-form label,
 #contact-form input,
