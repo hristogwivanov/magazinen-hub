@@ -1,0 +1,75 @@
+@import url("./css-reset.css");
+
+@import url("./header.css");
+@import url("./beginning.css");
+@import url("./introduction.css");
+@import url("./advantages.css");
+@import url("./very-convinient.css");
+@import url("./options.css");
+@import url("./clients.css");
+@import url("./contact-form.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;800&display=swap");
+
+.container {
+  max-width: 1330px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.buttons-wrapper {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.button {
+  height: 91px;
+  width: 274px;
+  background-size: cover;
+  /* border: 0 solid; */
+  /* border-radius: 15px; */
+  /* background-color: blueviolet; */
+}
+
+.small-button {
+  height: 50px;
+  width: 150px;
+  background-size: cover;
+  /* border: 0 solid; */
+  /* border-radius: 15px; */
+  /* background-color: blueviolet; */
+}
+
+h2 {
+  color: #000;
+
+  text-align: center;
+  /* H2 */
+  font-family: Jost;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+h3 {
+  color: #000;
+  text-align: center;
+
+  /* H3 */
+  font-family: Jost;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+p {
+  color: #000;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

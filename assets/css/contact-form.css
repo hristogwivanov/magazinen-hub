@@ -1,0 +1,160 @@
+#contact-form {
+  background-image: url("../images/background-personal-offer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+#contact-form .form-row {
+  display: flex;
+  gap: 68px;
+  justify-content: center;
+}
+
+#cotnact-form .right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#contact-form textarea,
+#contact-form input[type="text"] {
+  background: rgba(134, 134, 134, 0.7);
+  border: 0;
+}
+
+#contact-form textarea {
+  width: 642px;
+  height: 344px;
+  box-sizing: border-box;
+}
+
+#contact-form input[type="text"] {
+  width: 410px;
+  height: 67px;
+  box-sizing: border-box;
+}
+
+/* #contact-form input[type="checkbox"] {
+  width: 42px;
+  height: 40px;
+} */
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea {
+  color: #000;
+
+  /* Jost */
+  font-family: Jost;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 144% */
+  letter-spacing: -0.5px;
+}
+
+/* Customize the label (the container) */
+#contact-form .checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 52px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+#contact-form .checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+#contact-form .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 42px;
+  background-color: transparent;
+  border: solid 1px black;
+}
+
+/* On mouse-over, add a grey background color */
+/* .checkbox-container:hover input ~ .checkmark {
+    background-color: black;
+  }
+   */
+/* When the checkbox is checked, add a blue background */
+/* .checkbox-container input:checked ~ .checkmark {
+    background-color: blue;
+  } */
+
+/* Create the checkmark/indicator (hidden when not checked) */
+#contact-form .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+#contact-form .checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+#contact-form .checkbox-container .checkmark:after {
+  left: 12px;
+  top: 0px;
+  width: 15px;
+  height: 25px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#contact-form .white-checkbox-text {
+  color: #fff;
+  text-shadow: 10px 10px 10px #000;
+
+  /* Jost */
+  font-family: Jost;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 144% */
+  letter-spacing: -0.5px;
+}
+
+#contact-form form .checkbox-container a {
+  text-decoration: none;
+  color: #000;
+  /* Jost */
+  font-family: Jost;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.5px;
+}
+
+#contact-form form a .button {
+    margin: 0 auto;
+}
+
+
+#contact-form #button-request-offer{
+    background-image: url(../images/request-offer-transparent.png);
+}

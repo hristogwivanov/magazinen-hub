@@ -1,0 +1,29 @@
+#clients {
+    background-color: #F1F1F1;
+    padding: 10px 0 8px 0;
+}
+
+#clients h2 {
+    margin: 25px;
+}
+
+#clients .clients-wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 25px;
+}
+
+#clients #demo-shop{
+    background-image: url(../images/button-demo-shop.png);
+}
+
+#clients #to-the-offers{
+    background-image: url(../images/button-to-the-offers.png);
+}
+
+
+#clients .buttons-wrapper {
+    justify-content: center;
+    margin: 25px;
+}

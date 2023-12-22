@@ -1,0 +1,43 @@
+#very-convinient {
+    background-image: url("/assets/images/background-shopping-carts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background: url("../images/header-background.jpg"), lightgray 50% / cover no-repeat; */
+    padding-top: 35px;
+    padding-bottom: 16px;
+  }
+  
+  #very-convinient #see-more {
+    background-image: url(../images/button-see-more.png);
+  }
+  
+  #very-convinient #buy-now {
+    background-image: url(../images/button-buy-now.png);
+  }
+  
+  #very-convinient .content-wrapper {
+    display: flex;
+    margin-top: 15px;
+    /* flex-direction: column; */
+  }
+  
+  #very-convinient .content-wrapper .left-side-wrapper {
+    max-width: 48%;
+  }
+  
+  #very-convinient .content-wrapper .left-side-wrapper .text-wrapper{
+      margin-bottom: 25px;
+  }
+  
+  #very-convinient .content-wrapper .image-wrapper{
+    width: 509px;
+    height: 509px;
+    margin: 0 auto;
+    flex-shrink: 0;
+  }
+
+  #very-convinient .content-wrapper .image-wrapper img{
+    width: 509px;
+    height: 509px;
+  }

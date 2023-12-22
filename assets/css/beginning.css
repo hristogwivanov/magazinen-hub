@@ -1,0 +1,64 @@
+#beginning {
+  background-image: url("../images/background-beginning.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background: url("../images/header-background.jpg"), lightgray 50% / cover no-repeat; */
+  padding-top: 66px;
+  padding-bottom: 4px;
+}
+
+#beginning h1 {
+  color: #fff;
+  font-family: Jost;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+#beginning h4 {
+  color: #fff;
+  /* Подзаглавие */
+  font-family: Jost;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+#beginning h4:nth-of-type(2) {
+    color: #1E1E1E;
+    width: 60%;
+}
+
+#beginning .buttons-wrapper {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 130px;
+}
+
+#beginning .buttons-wrapper:nth-of-type(2) {
+    margin-bottom: 25px;
+}
+
+
+#beginning #demo-shop{
+    background-image: url(../images/button-demo-shop-transparent.png);
+}
+
+#beginning #to-the-offers{
+    background-image: url(../images/button-to-the-offers-transparent.png);
+}
+
+#beginning #to-the-client{
+    background-image: url(../images/button-to-the-client.png);
+}
+
+#beginning #i-want-design{
+    background-image: url(../images/button-want-design.png);
+}

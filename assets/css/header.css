@@ -1,0 +1,37 @@
+header div.container div.logo-wrapper #logo {
+    width: 122px;
+    height: 122px;
+    flex-shrink: 0;
+    margin: 7px 0 0 0;
+}
+
+header .nav-container {
+    align-items: center;
+    display: flex;
+}
+
+header .nav-container nav {
+    /* flex-grow: 1; */
+    margin: 0 auto;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+header nav ul li a {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;    
+}
+
+
+

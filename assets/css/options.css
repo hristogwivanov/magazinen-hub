@@ -1,0 +1,76 @@
+#options {
+    background-image: url("/assets/images/background-options.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background: url("../images/header-background.jpg"), lightgray 50% / cover no-repeat; */
+    padding-top: 35px;
+    padding-bottom: 16px;
+  }
+
+  #options h2 {
+    margin-bottom: 25px;
+  }
+
+  #options h3 {
+    margin: 25px 0;
+  }
+
+  #options p {
+    margin-bottom: 25px;
+  }
+
+#options .row-wrapper {
+    display: flex;
+    gap: 40px;
+}
+
+#options .options-image{
+    position: relative;
+    height: 319px;
+    width: 419px;
+    flex-shrink: 0;
+    background-color: #FFC8EA;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+#options #digital {
+    background-image: url(../images/option-digital.png);
+}
+
+#options #physical {
+    background-image: url(../images/option-physical.png);
+}
+
+#options #maximus {
+    background-image: url(../images/option-maximus.png);
+}
+
+#options .row-wrapper {
+    margin-bottom: 17px;
+}
+
+#options .row-wrapper img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    height: 120px;
+}
+
+#options .see-more {
+    background-image: url(../images/button-see-more-transparent.png);
+}
+
+#options #demo-shop{
+    background-image: url(../images/button-demo-shop-transparent.png);
+}
+
+#options #to-the-offers{
+    background-image: url(../images/button-to-the-offers-transparent.png);
+}
+
+#options .buttons-wrapper {
+    justify-content: center;
+}

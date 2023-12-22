@@ -1,0 +1,38 @@
+#introduction {
+  background-image: url("/assets/images/background-shopping-carts.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background: url("../images/header-background.jpg"), lightgray 50% / cover no-repeat; */
+  padding-top: 35px;
+  padding-bottom: 6px;
+}
+
+#introduction #check-plans {
+  background-image: url(../images/button-see-plans.png);
+}
+
+#introduction #request-offer {
+  background-image: url(../images/request-offer.png);
+}
+
+#introduction .content-wrapper {
+  display: flex;
+  margin-top: 15px;
+  /* flex-direction: column; */
+}
+
+#introduction .content-wrapper .left-side-wrapper {
+  max-width: 48%;
+}
+
+#introduction .content-wrapper .left-side-wrapper .text-wrapper{
+    margin-bottom: 25px;
+}
+
+#introduction .content-wrapper .image-wrapper {
+  width: 509px;
+  height: 509px;
+  margin: 0 auto;
+  flex-shrink: 0;
+}

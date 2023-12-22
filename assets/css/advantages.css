@@ -1,0 +1,46 @@
+#advantages {
+    background-image: url("../images/background-advantages.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background: url("../images/header-background.jpg"), lightgray 50% / cover no-repeat; */
+    padding-top: 35px;
+    padding-bottom: 25px;
+ }
+
+#advantages h2 {
+    margin-bottom: 25px;
+}
+
+#advantages .see-more {
+    background-image: url(../images/button-see-more.png);
+}
+
+#advantages .row-wrapper {
+    display: flex;
+    gap: 40px;
+}
+
+#advantages #demo-shop{
+    background-image: url(../images/button-demo-shop.png);
+}
+
+#advantages #to-the-offers{
+    background-image: url(../images/button-to-the-offers.png);
+}
+
+#advantages .advantage-item img {
+    margin-bottom: 25px;
+}
+
+#advantages .advantage-item p{
+    margin-bottom: 25px;
+}
+
+#advantages .advantage-item .small-button {
+    margin-bottom: 25px;
+}
+
+#advantages .buttons-wrapper {
+    justify-content: center;
+}
