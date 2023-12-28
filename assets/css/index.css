@@ -8,8 +8,9 @@
 @import url("./options.css");
 @import url("./clients.css");
 @import url("./contact-form.css");
+@import url("./footer.css");
 
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jost:wght@300;400;800&display=swap');
 
 .container {
   max-width: 1330px;

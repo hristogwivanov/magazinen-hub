@@ -318,7 +318,8 @@
         <section id="contact-form">
             <div class="container">
                 <h2>Направете запитване за персонална оферта</h2>
-                <form id="contact-us-form" method="post">
+                <form id="contact-us-form" action="#" method="post">
+                    <!-- action="php/contact.php" -->
                     <div class="form-row">
                         <div class="left-side">
                             <label for="description">Вашето съобщение:</label
@@ -355,38 +356,157 @@
                             />
                         </div>
                     </div>
-                    <label class="checkbox-container">
-                        <input type="checkbox" value="option1" />
-                        <span class="checkmark"></span>
-                        <span class="white-checkbox-text"
-                            >Съгласен съм с общите правила и политиката за
-                            поверителност на</span
-                        >
-                        <a href="#">личните данни</a>
-                    </label>
-                    <br />
-                    <label class="checkbox-container">
-                        <input type="checkbox" value="option2" />
-                        <span class="checkmark"></span>
-                        <span class="white-checkbox-text"
-                            >Съгласен съм да получавам рекламни имейли и
-                            материали от BUL-AI.</span
-                        >
-                    </label>
+                    <div class="checkboxes-container">
+                        <label class="checkbox-container">
+                            <input type="checkbox" value="option1" />
+                            <span class="checkmark"></span>
+                            <span class="white-checkbox-text"
+                                >Съглаесен съм с политиката на поверителност за
+                            </span>
+                            <a href="#" class="black-ckeckbox-text"
+                                >личните данни.</a
+                            >
+                        </label>
+                        <br />
+                        <label class="checkbox-container">
+                            <input type="checkbox" value="option2" />
+                            <span class="checkmark"></span>
+                            <span class="white-checkbox-text"
+                                >Съгласен съм да получавам рекламни имейли и
+                                материали от BUL-AI.</span
+                            >
+                        </label>
+                    </div>
                     <a href="#"
                         ><div class="button" id="button-request-offer"></div
                     ></a>
-                    <!-- <div class="form-group" style="text-align: center">
-            <button
-              class="btn btn-success"
-              id="personal-offer-submit"
-              type="submit"
-            >
-              заяви оферта
-            </button>
-          </div> -->
                 </form>
             </div>
         </section>
+
+        <footer>
+            <div class="container" id="contact">
+                <div class="row">
+                    <div class="col">
+                        <div class="socials-container">
+                            <div class="socials">
+                                <a
+                                    href="https://www.facebook.com/bulgarianai"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./assets/images/socials-facebook.png"
+                                    />
+                                </a>
+                                <a
+                                    href="https://www.tiktok.com/@bulgarianai"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./assets/images/socials-tiktok.png"
+                                    />
+                                </a>
+                                <a
+                                    href="https://www.youtube.com/@bul-ai"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./assets/images/socials-youtube.png"
+                                    />
+                                </a>
+                                <a
+                                    href="https://www.linkedin.com/company/bul-ai"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./assets/images/socials-linkedin.png"
+                                    />
+                                </a>
+                                <a
+                                    href="https://www.instagram.com/bulaicom/"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./assets/images/socials-instagram.png"
+                                    />
+                                </a>
+                                <a href="https://bul-ai.com" target="_blank">
+                                    <img
+                                        src="./assets/images/socials-bul-ai.png"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer-text">
+                            Magazinen Hub by BUL-AI | All rights reserved.
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="widget">
+                            <div class="footer-menu">
+                                <ul>
+                                    <li>
+                                        <a href="index.html" target="_blank"
+                                            >Начало</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">Планове</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank"
+                                            >Предимства</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">Вход</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">Контакт</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">Блог</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="widget">
+                            <div class="footer-menu">
+                                <ul>
+                                    <li>
+                                        <a href="#" target="_blank"
+                                            >Политика за личните данни</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank"
+                                            >Политика за бисквитките</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank"
+                                            >Общи условия</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="widget">
+                            <p>
+                                <a href="mailto:info@magazinenhub.com"
+                                    >info@magazinenhub.com</a
+                                ><br />
+                                +359 888 310 104
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
     </body>
 </html>
